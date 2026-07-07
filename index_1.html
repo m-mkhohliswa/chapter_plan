@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter — Strategic Blueprint</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.2/marked.min.js"></script>
+<style>
+  :root{
+    --bg:#0e0e0e;
+    --paper:#161616;
+    --ink:#ececec;
+    --muted:#8a8a8a;
+    --line:#2a2a2a;
+    --accent:#c9ff3d;
+    --mono:'JetBrains Mono','SFMono-Regular',Consolas,monospace;
+    --serif: Georgia, 'Times New Roman', serif;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:var(--serif);
+    line-height:1.65;
+  }
+  header{
+    padding:64px 24px 32px;
+    border-bottom:1px solid var(--line);
+    max-width:840px;
+    margin:0 auto;
+  }
+  header .kicker{
+    font-family:var(--mono);
+    text-transform:uppercase;
+    letter-spacing:.14em;
+    font-size:12px;
+    color:var(--accent);
+    margin-bottom:10px;
+  }
+  header h1{
+    font-size:42px;
+    margin:0 0 6px;
+    font-weight:400;
+    letter-spacing:-0.01em;
+  }
+  header p.sub{
+    color:var(--muted);
+    font-family:var(--mono);
+    font-size:13px;
+    margin:0;
+  }
+  nav.meta{
+    max-width:840px;
+    margin:20px auto 0;
+    padding:0 24px;
+    display:flex;
+    gap:18px;
+    flex-wrap:wrap;
+    font-family:var(--mono);
+    font-size:12.5px;
+  }
+  nav.meta a{
+    color:var(--ink);
+    text-decoration:none;
+    border:1px solid var(--line);
+    padding:6px 12px;
+    border-radius:2px;
+  }
+  nav.meta a:hover{ border-color:var(--accent); color:var(--accent); }
+
+  main{
+    max-width:840px;
+    margin:0 auto;
+    padding:40px 24px 100px;
+  }
+  #content h1{
+    font-size:28px;
+    border-bottom:1px solid var(--line);
+    padding-bottom:10px;
+    margin-top:56px;
+  }
+  #content h2{
+    font-size:22px;
+    margin-top:48px;
+    color:var(--ink);
+  }
+  #content h3{
+    font-size:17px;
+    font-family:var(--mono);
+    text-transform:uppercase;
+    letter-spacing:.04em;
+    color:var(--accent);
+    margin-top:32px;
+  }
+  #content p, #content li{
+    color:#d4d4d4;
+    font-size:16px;
+  }
+  #content strong{ color:var(--ink); }
+  #content code{
+    font-family:var(--mono);
+    background:#1e1e1e;
+    padding:1px 5px;
+    border-radius:3px;
+    font-size:.9em;
+  }
+  #content pre{
+    background:#101010;
+    border:1px solid var(--line);
+    padding:18px;
+    overflow-x:auto;
+    border-radius:4px;
+    font-family:var(--mono);
+    font-size:13px;
+    color:#b7ffb0;
+    line-height:1.5;
+  }
+  #content pre code{ background:none; padding:0; color:inherit; }
+  #content table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:14px;
+    margin:18px 0 30px;
+  }
+  #content th, #content td{
+    border:1px solid var(--line);
+    padding:10px 12px;
+    text-align:left;
+    vertical-align:top;
+  }
+  #content th{
+    background:#1a1a1a;
+    font-family:var(--mono);
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:.05em;
+    color:var(--muted);
+  }
+  #content blockquote{
+    border-left:3px solid var(--accent);
+    margin:24px 0;
+    padding:4px 20px;
+    color:var(--muted);
+    background:#141a06;
+    font-style:italic;
+  }
+  #content hr{
+    border:none;
+    border-top:1px solid var(--line);
+    margin:44px 0;
+  }
+  #content ul li{ margin-bottom:6px; }
+  #content input[type=checkbox]{ margin-right:8px; }
+
+  .status{
+    font-family:var(--mono);
+    font-size:13px;
+    color:var(--muted);
+    padding:40px 24px;
+    text-align:center;
+  }
+  footer{
+    max-width:840px;
+    margin:0 auto;
+    padding:24px;
+    border-top:1px solid var(--line);
+    font-family:var(--mono);
+    font-size:12px;
+    color:var(--muted);
+  }
+  footer a{ color:var(--accent); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="kicker">South Africa · Fashion / Apparel</div>
+  <h1>Chapter</h1>
+  <p class="sub">Independent Premium Apparel — Strategic Blueprint · live from README.md</p>
+</header>
+
+<nav class="meta">
+  <a href="https://github.com/YOUR_USERNAME/YOUR_REPO" target="_blank" rel="noopener">↗ View repo</a>
+  <a href="https://github.com/YOUR_USERNAME/YOUR_REPO/blob/main/README.md" target="_blank" rel="noopener">↗ Raw README</a>
+  <a href="https://github.com/YOUR_USERNAME/YOUR_REPO/issues" target="_blank" rel="noopener">↗ Open items / issues</a>
+</nav>
+
+<main>
+  <div id="content">
+    <p class="status">Loading blueprint…</p>
+  </div>
+</main>
+
+<footer>
+  This page renders README.md directly from the GitHub repo below on every load — edit the README, refresh this page, done.<br>
+  Repo: <a id="repo-link" href="#" target="_blank" rel="noopener">github.com/YOUR_USERNAME/YOUR_REPO</a>
+</footer>
+
+<script>
+  // ── EDIT THESE TWO LINES ────────────────────────────────
+  const GITHUB_USERNAME = "YOUR_USERNAME";
+  const GITHUB_REPO     = "YOUR_REPO";
+  const BRANCH          = "main"; // or "master"
+  // ─────────────────────────────────────────────────────────
+
+  const rawUrl = `https://raw.githubusercontent.com/${GITHUB_USERNAME}/${GITHUB_REPO}/${BRANCH}/README.md`;
+  document.getElementById('repo-link').href = `https://github.com/${GITHUB_USERNAME}/${GITHUB_REPO}`;
+
+  fetch(rawUrl)
+    .then(res => {
+      if (!res.ok) throw new Error(`GitHub returned ${res.status}`);
+      return res.text();
+    })
+    .then(md => {
+      document.getElementById('content').innerHTML = marked.parse(md);
+    })
+    .catch(err => {
+      document.getElementById('content').innerHTML =
+        `<p class="status">Could not load README.md from GitHub.<br>
+         Check GITHUB_USERNAME / GITHUB_REPO in the script tag at the bottom of this file,
+         and confirm the repo is public with a README.md on the "${BRANCH}" branch.<br><br>
+         (${err.message})</p>`;
+    });
+</script>
+
+</body>
+</html>
